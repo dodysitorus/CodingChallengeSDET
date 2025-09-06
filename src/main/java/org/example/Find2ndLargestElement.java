@@ -33,7 +33,6 @@ public class Find2ndLargestElement {
                 temp = max;
                 max = x;
             }
-
         }
         return temp;
     }
