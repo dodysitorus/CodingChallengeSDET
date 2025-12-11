@@ -45,6 +45,7 @@ public class FindDuplicateElemenArray {
         for (String name : input) {
             store.put(name, store.getOrDefault(name, 0) + 1);
         }
+
         for (Map.Entry<String, Integer> entry : store.entrySet()) {
             String key = entry.getKey();
             Integer value = entry.getValue();

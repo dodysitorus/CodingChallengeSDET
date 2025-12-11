@@ -5,7 +5,7 @@ import java.util.List;
 
 public class KidsWithGreatestNumberOfCandies {
     public static void main(String[] args) {
-        int[] candies = {2, 3, 5, 1, 3};
+        int[] candies = {2, 3, 5, 6, 3};
         int extraCandies = 3;
         System.out.println(kidsWithCandies(candies, extraCandies));
     }
